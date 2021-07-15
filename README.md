@@ -13,10 +13,13 @@ https://qiita.com/saki-engineering/items/b327f93fe7f027913bd7
 
 ### 前提条件
 
-(1)以下ソフトウェアがインストールされていること。
+(1)以下ソフトウェアがインストールされていること
   * node.js(v14.16.0以上)
   * npm(6.14.11以上)
-(2)AWS congnitoでユーザプール、アプリクライアントを作成する
+(2)AWS congnitoでユーザプールを作成する
+(3)(2)に以下の認証フローを持つアプリクライアントを追加する
+  * ALLOW_USER_SRP_AUTH
+  * ALLOW_REFRESH_TOKEN_AUTH
 
 ### 動かし方(初回)
 
